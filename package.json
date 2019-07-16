@@ -1,0 +1,21 @@
+{
+  "name": "electron-photobombth",
+  "productName": "Photobombth-faiza",
+  "version": "1.0.0",
+  "description": "Photobooth App",
+  "main": "src/main.js",
+  "dependencies": {
+    "electron": "^5.0.6"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.0.1",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "build": "rimraf Photobombth-* && electron-packager . --platform=darwin --arch=x64",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
